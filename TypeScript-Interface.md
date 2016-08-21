@@ -143,3 +143,8 @@ c(10);
 c.reset();
 c.interval = 5.0;
 </code></pre>
+
+这种非常适合处理第三方插件
+
+### interface扩展class
+interface扩展一个class，它将继承class所有的member，但不会继承class的实现。
